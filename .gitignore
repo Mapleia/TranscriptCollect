@@ -1,0 +1,5 @@
+node_modules
+venv
+.idea
+client_secret.json
+thermal-cathode-245321-abe573604ec3.json

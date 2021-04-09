@@ -1,10 +1,10 @@
-import {getIds, getStatistics, processDisLikes} from './dis_likes';
-import {getCaptions} from './transcript';
 const prompt = require('prompt');
+const {getIds, getStatistics, processDisLikes} = require('./dis_likes.js');
+const {getCaptions} = require('./transcript.js');
 
 const main = async function() {
     prompt.start();
-    prompt.get(['folder'], function (err, result) {
+    prompt.get(['folder'], async function (err, result) {
         if (err) { return onErr(err); }
         console.log('Command-line input received:');
         console.log('  Main transcript folder name: ' + result.folder);

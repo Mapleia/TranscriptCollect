@@ -24,6 +24,18 @@ function getCaptions(mainDirName) {
         } else {
             try {
                 const VIDEOS = JSON.parse(jsonString);
+                
+                try {
+                    if (!fs.existsSync(`./${mainDirName}/JSON`)){
+                        fs.mkdirSync(`./${mainDirName}/JSON`);
+                    }
+                    if (!fs.existsSync(`./${mainDirName}/TEXT`)){
+                        fs.mkdirSync(`./${mainDirName}/TEXT`);
+                    }
+                } catch (err) {
+                    console.log(err);
+                }
+
                 for (const video of VIDEOS) {
                     if (!video.id) throw new Error("no id found.");
     
@@ -35,12 +47,12 @@ function getCaptions(mainDirName) {
                             var captionString = captionStrings.join(" ");
     
                             const jsonCAPTION = JSON.stringify(captions, null, '\t');
-                            if (!fs.existsSync(`${mainDirName}/JSON`)){
-                                fs.mkdirSync("JSON");
-                            }
-
-                            if (!fs.existsSync(`${mainDirName}/TEXT`)){
-                                fs.mkdirSync("TEXT");
+                            try {
+                                if (fs.existsSync(`./${mainDirName}/youtube_vids.json`)) {
+                                  console.log("Main youtube_vids.json file exist. Continue...");
+                                } 
+                            } catch(err) {
+                                throw new Error(err);
                             }
 
                             fs.writeFile(`./${mainDirName}/JSON/${video.name}.json`, jsonCAPTION, err => {
@@ -68,4 +80,6 @@ function getCaptions(mainDirName) {
     });
 }
 
-export {getCaptions}
+module.exports = {
+    getCaptions
+};

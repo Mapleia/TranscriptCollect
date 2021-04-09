@@ -60,8 +60,10 @@ async function processDisLikes(mainDirName) {
 // an array of video ids
 // Writes to ./TRANSCRIPTS/dis_likes.json, but also returns the data.
 async function getStatistics(IDS, mainDirName) {
+    const secret_file = process.env.SECRET_FILE? process.env.SECRET_FILE : "secret_account.json";
+
     const auth = new google.auth.GoogleAuth({
-        keyFilename: process.env.SECRET_FILE, // gcloud service account
+        keyFilename: secret_file, // gcloud service account
         scopes: 'https://www.googleapis.com/auth/youtube.readonly'
       });
       const authClient = await auth.getClient();
@@ -86,6 +88,6 @@ async function getStatistics(IDS, mainDirName) {
       return createResponse.data;
 }
 
-export {
+module.exports = {
     getIds, processDisLikes, getStatistics
 }

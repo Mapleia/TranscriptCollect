@@ -1,15 +1,18 @@
 {
-  "name": "transcriptnlp",
+  "name": "transcriptcollect",
   "version": "1.0.0",
   "description": "",
-  "main": "transcript.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "node dis_likes.js"
+    "start": "node -r dotenv/config app.js"
   },
   "author": "Kaede Ito",
   "license": "ISC",
   "dependencies": {
     "@googleapis/youtube": "^1.0.0",
-    "googleapis": "^71.0.0"
+    "dotenv": "^8.2.0",
+    "googleapis": "^71.0.0",
+    "prompt": "^1.1.0",
+    "youtube-captions-scraper": "^1.0.3"
   }
 }

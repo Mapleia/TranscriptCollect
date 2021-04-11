@@ -6,18 +6,18 @@ const fs = require('fs')
 // write to TEXT folder with .txt file with video caption. 
 // return 0 if completed succesfully. 
 function getCaptions(mainDirName) {
-    if (!fs.existsSync(`${mainDirName}`)){
+    if (!fs.existsSync(`../${mainDirName}`)){
         fs.mkdirSync(mainDirName);
     }
     try {
-        if (fs.existsSync(`./${mainDirName}/youtube_vids.json`)) {
+        if (fs.existsSync(`../${mainDirName}/youtube_vids.json`)) {
           console.log("Main youtube_vids.json file exist. Continue...");
         } 
     } catch(err) {
         throw new Error(err);
     }
 
-    fs.readFile(`./${mainDirName}/youtube_vids.json`, 'utf8', (err, jsonString) => {
+    fs.readFile(`../${mainDirName}/youtube_vids.json`, 'utf8', (err, jsonString) => {
         if (err) {
             console.error("File read failed:", err);
             return
@@ -26,11 +26,11 @@ function getCaptions(mainDirName) {
                 const VIDEOS = JSON.parse(jsonString);
                 
                 try {
-                    if (!fs.existsSync(`./${mainDirName}/JSON`)){
-                        fs.mkdirSync(`./${mainDirName}/JSON`);
+                    if (!fs.existsSync(`../${mainDirName}/JSON`)){
+                        fs.mkdirSync(`../${mainDirName}/JSON`);
                     }
-                    if (!fs.existsSync(`./${mainDirName}/TEXT`)){
-                        fs.mkdirSync(`./${mainDirName}/TEXT`);
+                    if (!fs.existsSync(`../${mainDirName}/TEXT`)){
+                        fs.mkdirSync(`../${mainDirName}/TEXT`);
                     }
                 } catch (err) {
                     console.log(err);
@@ -48,21 +48,21 @@ function getCaptions(mainDirName) {
     
                             const jsonCAPTION = JSON.stringify(captions, null, '\t');
                             try {
-                                if (fs.existsSync(`./${mainDirName}/youtube_vids.json`)) {
+                                if (fs.existsSync(`../${mainDirName}/youtube_vids.json`)) {
                                   console.log("Main youtube_vids.json file exist. Continue...");
                                 } 
                             } catch(err) {
                                 throw new Error(err);
                             }
 
-                            fs.writeFile(`./${mainDirName}/JSON/${video.name}.json`, jsonCAPTION, err => {
+                            fs.writeFile(`../${mainDirName}/JSON/${video.name}.json`, jsonCAPTION, err => {
                                 if (err) {
                                     console.log('Error writing file', err)
                                 } else {
                                     console.log('Successfully wrote file')
                                 }
                             })
-                            fs.writeFile(`./${mainDirName}/TEXT/${video.name}.txt`, captionString, err => {
+                            fs.writeFile(`../${mainDirName}/TEXT/${video.name}.txt`, captionString, err => {
                                 if (err) {
                                     console.log('Error writing file', err)
                                 } else {

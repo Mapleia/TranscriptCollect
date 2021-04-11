@@ -21,7 +21,7 @@ async function getIds(mainDirName) {
 // from a json file with the dislikes and likes ./TRANSCRIPTS/dis_likes.json,
 // process to get the vital information and output to ./TRANSCRIPTS/DISLIKES_LIST.json
 async function processDisLikes(mainDirName) {
-    const data = await fs.readFile(`../${mainDirName}/dis_likes.json`, 'utf8');
+    const data = await fs.readFile(`dis_likes_raw.json`, 'utf8');
     try {
         const VIDEOS = JSON.parse(data);
         var result = {};
@@ -33,13 +33,14 @@ async function processDisLikes(mainDirName) {
                 }
         }
 
-        const YOUTUBERS_FILE = await fs.readFile('../TRANSCRIPTS/youtube_vids.json', 'utf8')
+        const YOUTUBERS_FILE = await fs.readFile(`../${mainDirName}/youtube_vids.json`, 'utf8')
         const YOUTUBERS = JSON.parse(YOUTUBERS_FILE);
         var ratio_list = [];
 
         for (const youtuber of YOUTUBERS) {
             var likes = result[youtuber['id']]['likes']
             var dislikes = result[youtuber['id']]['dislikes']
+            console.log(`Likes: ${likes}`, `Dislikes: ${dislikes}`)
             if (likes && dislikes) {
                 var ratio = likes/dislikes
                 var obj = {
@@ -52,6 +53,8 @@ async function processDisLikes(mainDirName) {
                 ratio_list.push(obj)
             }
         }
+        console.log(ratio_list);
+        console.log(ratio_list.length);
 
         const jsonDIS_LIKES = JSON.stringify(ratio_list, null, '\t');
         fs.writeFile(`../${mainDirName}/ratio_list.json`, jsonDIS_LIKES, err => {

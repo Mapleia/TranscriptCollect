@@ -2,7 +2,7 @@ const prompt = require('prompt');
 const {getIds, getStatistics, processDisLikes} = require('./dis_likes.js');
 const {getCaptions} = require('./transcript.js');
 
-const main = async function() {
+module.exports.main = async function() {
     prompt.start();
     prompt.get(['folder'], async function (err, result) {
         if (err) { return onErr(err); }
@@ -21,4 +21,6 @@ const main = async function() {
     }    
 }
 
-main();
+module.exports.processDisLikes = async function() {
+    processDisLikes('TRANSCRIPTS');
+}

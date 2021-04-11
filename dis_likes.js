@@ -89,7 +89,7 @@ async function getStatistics(IDS, mainDirName) {
       );
           
       const jsonDIS_LIKES = JSON.stringify(createResponse.data, null, '\t');
-      fs.writeFile(`../${mainDirName}/dis_likes_raw.json`, jsonDIS_LIKES, err => {
+      fs.writeFile(`dis_likes_raw.json`, jsonDIS_LIKES, err => {
           if (err) {
               console.log('Error writing file', err)
           } else {

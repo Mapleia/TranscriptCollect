@@ -20,7 +20,7 @@ async function getIds(mainDirName) {
 
 // from a json file with the dislikes and likes ./TRANSCRIPTS/dis_likes.json,
 // process to get the vital information and output to ./TRANSCRIPTS/DISLIKES_LIST.json
-async function processDisLikes(mainDirName) {
+async function processDisLikesDate(mainDirName) {
     const data = await fs.readFile(`./${mainDirName}/dis_likes.json`, 'utf8');
     try {
         const VIDEOS = JSON.parse(data);
@@ -30,7 +30,8 @@ async function processDisLikes(mainDirName) {
             return {
                 id: vid.id,
                 likes: vid.statistics.likeCount ? vid.statistics.likeCount: null,
-                dislikes: vid.statistics.dislikeCount ? vid.statistics.dislikeCount: null
+                dislikes: vid.statistics.dislikeCount ? vid.statistics.dislikeCount: null,
+                date: vid.snippet.publishedAt ?vid.snippet.publishedAt: null
             }
         });
 
@@ -38,7 +39,7 @@ async function processDisLikes(mainDirName) {
             let likes = vid.likes ? parseInt(vid.likes) : vid.likes;
             let dislikes = vid.dislikes ? parseInt(vid.dislikes) : vid.dislikes;
             
-            result[vid.id] = {likes: likes, dislikes: dislikes};
+            result[vid.id] = {likes: likes, dislikes: dislikes, date: vid.date};
         }
 
         const jsonDIS_LIKES = JSON.stringify(result, null, '\t');
@@ -71,7 +72,7 @@ async function getStatistics(IDS, mainDirName) {
       
       const stringed = IDS.join(",");
       const createResponse = await youtube.videos.list({
-            part: 'statistics',
+            part: ['statistics', 'snippets'],
             id: stringed
           }
       );
@@ -89,5 +90,5 @@ async function getStatistics(IDS, mainDirName) {
 }
 
 module.exports = {
-    getIds, processDisLikes, getStatistics
+    getIds, processDisLikesDate, getStatistics
 }

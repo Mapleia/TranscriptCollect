@@ -1,6 +1,6 @@
-node_modules
-venv
-.idea
+node_modules/
+venv/
+.idea/
 client_secret.json
 service_account.json
 .env

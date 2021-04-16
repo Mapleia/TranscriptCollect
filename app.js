@@ -1,5 +1,5 @@
 const prompt = require('prompt');
-const {getIds, getStatistics, processDisLikes, getMissingCaptionPeople, getList} = require('./dis_likes.js');
+const {getIds, getStatistics, processDisLikesDate, getMissingCaptionPeople, getList} = require('./dis_likes.js');
 const {getCaptions} = require('./transcript.js');
 
 module.exports.main = async function() {
@@ -12,7 +12,7 @@ module.exports.main = async function() {
         getCaptions(result.folder);
         const IDS = await getIds(result.folder);
         await getStatistics(IDS);
-        await processDisLikes(result.folder);
+        await processDisLikesDate(result.folder);
     });
     
     function onErr(err) {

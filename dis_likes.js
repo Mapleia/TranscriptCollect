@@ -20,8 +20,8 @@ async function getIds(mainDirName) {
 
 // from a json file with the dislikes and likes ./TRANSCRIPTS/dis_likes.json,
 // process to get the vital information and output to ./TRANSCRIPTS/DISLIKES_LIST.json
-async function processDisLikes(mainDirName) {
-    const data = await fs.readFile(`dis_likes_raw.json`, 'utf8');
+async function processDisLikesDate(mainDirName) {
+    const data = await fs.readFile(`./${mainDirName}/dis_likes.json`, 'utf8');
     try {
         const VIDEOS = JSON.parse(data);
         var result = {};
@@ -29,7 +29,8 @@ async function processDisLikes(mainDirName) {
         for (const vid of VIDEOS.items) {
             result[vid.id] = {
                     likes: vid.statistics.likeCount ? parseInt(vid.statistics.likeCount): null,
-                    dislikes: vid.statistics.dislikeCount ? parseInt(vid.statistics.dislikeCount): null
+                    dislikes: vid.statistics.dislikeCount ? parseInt(vid.statistics.dislikeCount): null,
+                    date: vid.snippet.publishedAt ? vid.snippet.publishedAt: null
                 }
         }
 
@@ -41,12 +42,14 @@ async function processDisLikes(mainDirName) {
         for (const youtuber of YOUTUBERS) {
             var likes = result[youtuber['id']]['likes']
             var dislikes = result[youtuber['id']]['dislikes']
+            var date = result[youtuber['id']]['date']
             console.log(`Likes: ${likes}`, `Dislikes: ${dislikes}`)
             if (likes && dislikes) {
                 var ratio = likes/dislikes
                 var obj = {
                         'id': youtuber['id'],
                         'name': youtuber['name'],
+                        'date': date,
                         'like': likes,
                         'dislikes': dislikes,
                         'ratio': ratio
@@ -128,7 +131,7 @@ async function getStatistics(IDS) {
       
       const stringed = IDS.join(",");
       const createResponse = await youtube.videos.list({
-            part: 'statistics',
+            part: ['statistics', 'snippets'],
             id: stringed
           }
       );
@@ -171,5 +174,5 @@ async function getList(mainDirName) {
 }
 
 module.exports = {
-    getIds, processDisLikes, getStatistics, getMissingCaptionPeople, getList
+    getIds, processDisLikesDate, getStatistics, getMissingCaptionPeople, getList
 }

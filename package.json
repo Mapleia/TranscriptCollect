@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node -r dotenv/config -e 'require(\"./app.js\").main()'",
-    "dislikes": "node -r dotenv/config -e 'require(\"./app.js\").processDisLikes()'"
+    "dislikes": "node -r dotenv/config -e 'require(\"./app.js\").processDisLikes()'",
+    "missingCaption": "node -r dotenv/config -e 'require(\"./app.js\").getMissingCaptionPeople()'",
+    "list": "node -r dotenv/config -e 'require(\"./app.js\").getList()'"
   },
   "author": "Kaede Ito",
   "license": "ISC",

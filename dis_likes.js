@@ -1,101 +1,106 @@
 //const youtube = require('@googleapis/youtube');
-const fs = require('fs').promises;
+const fs = require('fs');
 const {google} = require('googleapis');
 const youtube = google.youtube('v3');
+const {readFile} = fs.promises;
+const moment = require('moment');
 
-// from the youtube video list, ./TRANSCRIPTS/youtube_vids.json return a array of ids
-async function getIds(mainDirName) {
-    const data = await fs.readFile(`../${mainDirName}/youtube_vids.json`, 'utf8');
+
+async function readYoutubeVids(mainDirName) {
     try {
+        const data = await readFile(`../${mainDirName}/youtube_vids.json`, 'utf8');
         const VIDEOS = JSON.parse(data);
-        var ids = VIDEOS.map((vid) => {
-            return vid['id']
-        });
+        return VIDEOS;
+    } catch (err) {
+        console.error(`Could not find ${mainDirName}/youtube_vids.json`);
+        process.exit(1);
+    }
+    
+}
 
-        return ids;
-    } catch(err) {
-        console.error('Error parsing JSON string:', err)
-    } 
+function formatDate(date) {
+    var dt = new Date(date);
+
+    return `${dt.getFullYear().toString().padStart(4, '0')}-${
+            (dt.getMonth()+1).toString().padStart(2, '0')}-${
+            dt.getDate().toString().padStart(2, '0')} ${
+            dt.getHours().toString().padStart(2, '0')}:${
+            dt.getMinutes().toString().padStart(2, '0')}:${
+            dt.getSeconds().toString().padStart(2, '0')}`;
 }
 
 // from a json file with the dislikes and likes ./TRANSCRIPTS/dis_likes.json,
 // process to get the vital information and output to ./TRANSCRIPTS/DISLIKES_LIST.json
-async function processDisLikesDate(mainDirName) {
-    const data = await fs.readFile(`./${mainDirName}/dis_likes.json`, 'utf8');
+async function processDisLikesDate(YOUTUBERS, mainDirName, raw_data) {
     try {
-        const VIDEOS = JSON.parse(data);
         var result = {};
-        
-        for (const vid of VIDEOS.items) {
+        for (const vid of raw_data.items) {
             result[vid.id] = {
-                    likes: vid.statistics.likeCount ? parseInt(vid.statistics.likeCount): null,
-                    dislikes: vid.statistics.dislikeCount ? parseInt(vid.statistics.dislikeCount): null,
-                    date: vid.snippet.publishedAt ? vid.snippet.publishedAt: null
-                }
+                likes: vid.statistics.likeCount ? parseInt(vid.statistics.likeCount): null,
+                dislikes: vid.statistics.dislikeCount ? parseInt(vid.statistics.dislikeCount): null,
+                date: vid.snippet.publishedAt ? formatDate(vid.snippet.publishedAt): null
+            }
         }
 
-        const YOUTUBERS_FILE = await fs.readFile(`../${mainDirName}/youtube_vids.json`, 'utf8')
-        const YOUTUBERS = JSON.parse(YOUTUBERS_FILE);
         var ratio_list = [];
-
+    
         var missing = "";
         for (const youtuber of YOUTUBERS) {
             var likes = result[youtuber['id']]['likes']
             var dislikes = result[youtuber['id']]['dislikes']
             var date = result[youtuber['id']]['date']
+            var initial = youtuber['initial_contro'];
+
             console.log(`Likes: ${likes}`, `Dislikes: ${dislikes}`)
             if (likes && dislikes) {
                 var ratio = likes/dislikes
                 var obj = {
-                        'id': youtuber['id'],
-                        'name': youtuber['name'],
-                        'date': date,
-                        'like': likes,
-                        'dislikes': dislikes,
-                        'ratio': ratio
+                    'id': youtuber['id'],
+                    'name': youtuber['name'],
+                    'date': date,
+                    'like': likes,
+                    'dislikes': dislikes,
+                    'ratio': ratio,
+                    'dateDiff': moment(date).diff(moment(initial), 'days')
                 }
                 ratio_list.push(obj)
             } else {
                 missing += `name: ${youtuber['name']}, ${youtuber['link']}\n`
             }
         }
-        console.log(ratio_list);
-        console.log(ratio_list.length);
-
+        console.log('Length of ratio list', ratio_list.length);
+    
         const jsonDIS_LIKES = JSON.stringify(ratio_list, null, '\t');
         fs.writeFile(`../${mainDirName}/ratio_list.json`, jsonDIS_LIKES, err => {
             if (err) {
-                console.log('Error writing file', err)
+                console.error('Error writing file', err)
             } else {
-                console.log('Successfully wrote file')
+                console.log('Successfully wrote file ratio_list.json')
             }
         });
-
+    
         fs.writeFile(`../${mainDirName}/missing_ratio.txt`, missing, err => {
             if (err) {
-                console.log('Error writing file', err)
+                console.error('Error writing file', err)
             } else {
-                console.log('Successfully wrote file')
+                console.log('Successfully wrote file missing_ratio.txt')
             }
         })
-
-        return result;
+    
+        return ratio_list;
     } catch(err) {
-        console.error('Error parsing JSON string:', err)
-    } 
+        console.error(err)
+        process.exit(1);
+    }
 }
 
-async function getMissingCaptionPeople(mainDirName) {
+async function getMissingCaptionPeople(youtubers, mainDirName) {
     try {
-        var files = await fs.readdir(`../${mainDirName}/TEXT`);
+        var files = await fs.promises.readdir(`../${mainDirName}/TEXT`);
         files = files.map((file) => {
             return file.slice(0, -4)
         })
-        const data = await fs.readFile(`../${mainDirName}/youtube_vids.json`, 'utf8');
-
-        const VIDEOS = JSON.parse(data);
-
-        const missingPeople = VIDEOS.filter((video) => {
+        const missingPeople = youtubers.filter((video) => {
             return !files.includes(video['name'])
         })
         var missing = "";
@@ -104,14 +109,15 @@ async function getMissingCaptionPeople(mainDirName) {
         }
         fs.writeFile(`../${mainDirName}/missing_captions.txt`, missing, err => {
             if (err) {
-                console.log('Error writing file', err)
+                console.error('Error writing file missing_captions.txt', err)
             } else {
-                console.log('Successfully wrote file')
+                console.log('Successfully wrote file missing_captions.txt')
             }
         })
 
     } catch(err) {
-        console.error('Error parsing JSON string:', err)
+        console.error('Error parsing JSON string', err)
+        process.exit(1);
     } 
     
 }
@@ -119,43 +125,43 @@ async function getMissingCaptionPeople(mainDirName) {
 // connect to youtube API and get the statistics from all of the videos given in 
 // an array of video ids
 // Writes to ./TRANSCRIPTS/dis_likes.json, but also returns the data.
-async function getStatistics(IDS) {
-    const secret_file = process.env.SECRET_FILE? process.env.SECRET_FILE : "secret_account.json";
+async function getStatistics(youtubers, mainDirName) {
+    
+    const secret_file = process.env.SECRET_FILE? process.env.SECRET_FILE : "service_account.json";
+    if (!fs.existsSync(`${secret_file}`)){
+        console.error('No service account secret file found.');
+        process.exit(1);
+    }
+    try {
+        const auth = new google.auth.GoogleAuth({
+            keyFilename: secret_file, // gcloud service account
+            scopes: 'https://www.googleapis.com/auth/youtube.readonly'
+        });
+        const authClient = await auth.getClient();
+        google.options({auth: authClient});
 
-    const auth = new google.auth.GoogleAuth({
-        keyFilename: secret_file, // gcloud service account
-        scopes: 'https://www.googleapis.com/auth/youtube.readonly'
-      });
-      const authClient = await auth.getClient();
-      google.options({auth: authClient});
-      
-      const stringed = IDS.join(",");
-      const createResponse = await youtube.videos.list({
-            part: ['statistics', 'snippets'],
+        const IDS = youtubers.map((vid) => {return vid['id']});
+        const stringed = IDS.join(",");
+        const createResponse = await youtube.videos.list({
+            part: ['statistics', 'snippet'],
             id: stringed
-          }
-      );
-          
-      const jsonDIS_LIKES = JSON.stringify(createResponse.data, null, '\t');
-      fs.writeFile(`dis_likes_raw.json`, jsonDIS_LIKES, err => {
-          if (err) {
-              console.log('Error writing file', err)
-          } else {
-              console.log('Successfully wrote file')
-          }
-      });
-
-      return createResponse.data;
+        });
+              
+        const ratios = await processDisLikesDate(youtubers, mainDirName, createResponse.data)
+    
+        return ratios;
+    } catch (err) {
+        console.error(err);
+        process.exit(1);
+    }
+    
 }
 
-async function getList(mainDirName) {
+async function getList(youtubers, mainDirName) {
     try {
-        const data = await fs.readFile(`../TRANSCRIPTS/youtube_vids.json`, 'utf8');
-        const VIDEOS = JSON.parse(data);
-
         var links = "";
 
-        for (const video of VIDEOS) {
+        for (const video of youtubers) {
             const {link, other, transcript} = video;
             links += `${link}\n`
             if (other) links += `${other}\n`
@@ -163,16 +169,17 @@ async function getList(mainDirName) {
         }
         fs.writeFile(`../${mainDirName}/list_youtuber.txt`, links, err => {
             if (err) {
-                console.log('Error writing file', err)
+                console.error('Error writing file list_youtuber.txt', err)
             } else {
-                console.log('Successfully wrote file')
+                console.log('Successfully wrote file list_youtuber.txt')
             }
         })
     } catch(err) {
-        console.error('Error parsing JSON string:', err)
+        console.error('Error parsing JSON string:', err);
+        process.exit(1);
     } 
 }
 
 module.exports = {
-    getIds, processDisLikesDate, getStatistics, getMissingCaptionPeople, getList
+    processDisLikesDate, getStatistics, getMissingCaptionPeople, getList, readYoutubeVids
 }

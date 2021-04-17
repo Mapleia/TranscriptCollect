@@ -1,260 +1,1376 @@
 {
 	"kind": "youtube#videoListResponse",
-	"etag": "uRwJsC8T2crVZpLos333o1O16mo",
+	"etag": "6GrZHaZQAaXUHBU7j9VsrSp8Vvw",
 	"items": [
 		{
 			"kind": "youtube#video",
-			"etag": "bqV4T38NF26VTJHOz1HILr6epeo",
+			"etag": "U3y5T77i_l1WBpQrzC_Bm_1QMvg",
 			"id": "HoLSOba3_UE",
+			"snippet": {
+				"publishedAt": "2016-02-13T13:07:18Z",
+				"channelId": "UCCP4FjQ7NVSNj0GcdlhuzIw",
+				"title": "Fine Bros apology (REUPLOAD)",
+				"description": "Fine Brothers apology video that they took down",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/HoLSOba3_UE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/HoLSOba3_UE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/HoLSOba3_UE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/HoLSOba3_UE/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "tacyppilF",
+				"tags": [
+					"fine brothers entertainment",
+					"fine bros",
+					"apology",
+					"apologize",
+					"trademark",
+					"react world",
+					"kids react",
+					"elders react",
+					"youtubers react"
+				],
+				"categoryId": "24",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "Fine Bros apology (REUPLOAD)",
+					"description": "Fine Brothers apology video that they took down"
+				}
+			},
 			"statistics": {
-				"viewCount": "68583",
-				"likeCount": "559",
-				"dislikeCount": "994",
+				"viewCount": "69518",
+				"likeCount": "563",
+				"dislikeCount": "1006",
 				"favoriteCount": "0",
-				"commentCount": "275"
+				"commentCount": "279"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "4fLSO4eTMIdaRBPYq-3iyth29xs",
+			"etag": "_xkoD7qz_YTkDAsno2hFJyJOitQ",
 			"id": "Fazh9Lm1kDE",
+			"snippet": {
+				"publishedAt": "2017-02-17T21:24:52Z",
+				"channelId": "UClWD8su9Sk6GzZDwy9zs3_w",
+				"title": "An apology",
+				"description": "Thank you for hearing me out, thank you for supporting me even when I don't deserve it. I promise I will make it up to you, as this has taught me more about life than anything I've ever been through. I'm still young and an idiot and I'll probably make a million more mistakes- but I will own up to them in a courageous and honest fashion from this point forward. Because you guys deserve that. You guys are my family and I owe you at least that. I know it will take a while for me to gain your trust back, and I completely am ready for that and deserve that. So until that point, I promise to be entirely transparent, because I love you and can't imagine a life without you. You guys truly saved my life, doing this saved my life. And I don't want to live a life where I can't do this. I don't want to live a life without you- so I will fight for that. I want to get back to doing what I love. Sharing my story in the realest possible way, to the people I love. THANK YOU for holding me accountable and calling me out when I deserved it. Thank you for supporting me at my lowest point, thank you for being the family I never had, and probably don't deserve. I love you. No more victim, no more bullshit, just me.\n\nSTORYTIMES: https://goo.gl/KCfkra\nTANA & FRIENDS: https://goo.gl/vQ2uA2\nBEST OF TANA: https://goo.gl/LPS4D9\n\nMY SOCIAL MEDIA:\nTwitter: https://goo.gl/XPzcWm\nInstagram: https://goo.gl/VrsaRD\nSnapchat: tanamongeau1",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Fazh9Lm1kDE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Fazh9Lm1kDE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Fazh9Lm1kDE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "Tana Mongeau",
+				"tags": [
+					"Tana Mongeau",
+					"storytime",
+					"tana",
+					"tanna",
+					"story time",
+					"tana mongeau story time",
+					"tana mongeau storytime",
+					"Mongeau",
+					"Tana Mongeau YouTube",
+					"YouTube Tana Mongeau",
+					"Tana Story Time",
+					"Story Time Tana Mongeau",
+					"Story Time Tana",
+					"Comedy",
+					"Comedian",
+					"Entertainment"
+				],
+				"categoryId": "23",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "An apology",
+					"description": "Thank you for hearing me out, thank you for supporting me even when I don't deserve it. I promise I will make it up to you, as this has taught me more about life than anything I've ever been through. I'm still young and an idiot and I'll probably make a million more mistakes- but I will own up to them in a courageous and honest fashion from this point forward. Because you guys deserve that. You guys are my family and I owe you at least that. I know it will take a while for me to gain your trust back, and I completely am ready for that and deserve that. So until that point, I promise to be entirely transparent, because I love you and can't imagine a life without you. You guys truly saved my life, doing this saved my life. And I don't want to live a life where I can't do this. I don't want to live a life without you- so I will fight for that. I want to get back to doing what I love. Sharing my story in the realest possible way, to the people I love. THANK YOU for holding me accountable and calling me out when I deserved it. Thank you for supporting me at my lowest point, thank you for being the family I never had, and probably don't deserve. I love you. No more victim, no more bullshit, just me.\n\nSTORYTIMES: https://goo.gl/KCfkra\nTANA & FRIENDS: https://goo.gl/vQ2uA2\nBEST OF TANA: https://goo.gl/LPS4D9\n\nMY SOCIAL MEDIA:\nTwitter: https://goo.gl/XPzcWm\nInstagram: https://goo.gl/VrsaRD\nSnapchat: tanamongeau1"
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "4149536",
-				"likeCount": "115239",
-				"dislikeCount": "406954",
+				"viewCount": "4150437",
+				"likeCount": "115229",
+				"dislikeCount": "407021",
 				"favoriteCount": "0",
-				"commentCount": "90086"
+				"commentCount": "90026"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "i1du5dqPq_lobXH8NPWPDQ86ns4",
+			"etag": "mf9WpSdDGuHPRJ6Zlig9jl9L7aA",
 			"id": "vwLiy4ti9is",
+			"snippet": {
+				"publishedAt": "2020-09-04T20:29:10Z",
+				"channelId": "UClWD8su9Sk6GzZDwy9zs3_w",
+				"title": "a long overdue apology",
+				"description": "join me in donating to the NAACP, alongside these other charities: https://bit.ly/2F6SIZH\nfeedingamerica.org\npandemicoflove.com\n\nthis video is 100% demonetized. \n\npetitions i signed and you can too (i will be updating this as i sign more which is why i didn't edit them onto the screen):\n\nhttps://www.naacp.org/campaigns/we-are-done-dying/\nhttps://blacklivesmatter.com/defundthepolice/\nhttps://www.change.org/p/national-action-against-police-brutality-and-murder\nhttps://www.standwithbre.com/\nhttps://www.change.org/p/human-rights-campaign-justice-for-ahmuad-aubrey-2\nhttps://blacklivesmatter.com/petitions/\nhttps://www.change.org/p/tony-evers-charge-the-cops-who-shot-jacob-blake?source_location=topic_page\nhttps://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=topic_page\nhttps://www.change.org/p/palmdale-pd-robert-fuller-was-found-dead-june-10-2020-after-he-was-found-hanging-from-a-tree-in-ca?source_location=topic_page\nhttps://www.change.org/p/un-and-us-government-ban-the-use-of-rubber-bullets?recruiter=922712485&recruited_by_id=62d8f120-fdb6-11e8-8dbd-0dee42fd9442\nhttps://muslimadvocates.org/action/muhaymin/?gclid=EAIaIQobChMIxZLI_a2l6wIVXD2tBh2I9wjGEAAYAiAAEgJnJvD_BwE\nhttps://www.change.org/p/new-york-state-senate-assembly-pass-the-black-history-education-bill\nhttps://www.change.org/p/govia-thameslink-justice-for-belly-mujinga-justiceforbellymujinga\nhttps://www.change.org/p/justice-for-tony-mcdade",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/vwLiy4ti9is/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/vwLiy4ti9is/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/vwLiy4ti9is/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/vwLiy4ti9is/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/vwLiy4ti9is/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Tana Mongeau",
+				"tags": [
+					"tana mongeau"
+				],
+				"categoryId": "23",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "a long overdue apology",
+					"description": "join me in donating to the NAACP, alongside these other charities: https://bit.ly/2F6SIZH\nfeedingamerica.org\npandemicoflove.com\n\nthis video is 100% demonetized. \n\npetitions i signed and you can too (i will be updating this as i sign more which is why i didn't edit them onto the screen):\n\nhttps://www.naacp.org/campaigns/we-are-done-dying/\nhttps://blacklivesmatter.com/defundthepolice/\nhttps://www.change.org/p/national-action-against-police-brutality-and-murder\nhttps://www.standwithbre.com/\nhttps://www.change.org/p/human-rights-campaign-justice-for-ahmuad-aubrey-2\nhttps://blacklivesmatter.com/petitions/\nhttps://www.change.org/p/tony-evers-charge-the-cops-who-shot-jacob-blake?source_location=topic_page\nhttps://www.change.org/p/andy-beshear-justice-for-breonna-taylor?source_location=topic_page\nhttps://www.change.org/p/palmdale-pd-robert-fuller-was-found-dead-june-10-2020-after-he-was-found-hanging-from-a-tree-in-ca?source_location=topic_page\nhttps://www.change.org/p/un-and-us-government-ban-the-use-of-rubber-bullets?recruiter=922712485&recruited_by_id=62d8f120-fdb6-11e8-8dbd-0dee42fd9442\nhttps://muslimadvocates.org/action/muhaymin/?gclid=EAIaIQobChMIxZLI_a2l6wIVXD2tBh2I9wjGEAAYAiAAEgJnJvD_BwE\nhttps://www.change.org/p/new-york-state-senate-assembly-pass-the-black-history-education-bill\nhttps://www.change.org/p/govia-thameslink-justice-for-belly-mujinga-justiceforbellymujinga\nhttps://www.change.org/p/justice-for-tony-mcdade"
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "2076513",
-				"likeCount": "41613",
-				"dislikeCount": "114647",
+				"viewCount": "2080110",
+				"likeCount": "41623",
+				"dislikeCount": "114729",
 				"favoriteCount": "0",
-				"commentCount": "35056"
+				"commentCount": "35040"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "SKCdWbVeVX-bDETct_WLV_1DrVQ",
+			"etag": "KsRTxSEcp0ovx47x8_CYbdeUDTc",
 			"id": "WAOkXN7aXxg",
+			"snippet": {
+				"publishedAt": "2020-11-27T22:04:55Z",
+				"channelId": "UC2JcqHTeLyt3f9A0RxBZWSQ",
+				"title": "Admitting When I'm Wrong",
+				"description": "Point of Clarity: Guidelines state a maximum of 10 people or 50% capacity of the boat whichever is GREATER (The boat capacity was 90 people). Also, I did not see or treat patients until after following all guidelines for safe return. \n\nThank you for hearing me out. I made a mistake and I apologize. Do not let my lapse in judgment be used to hurt the science behind masks and the other COVID mitigation measures. Here are some links to accurate info from the CDC on the subject. (Update: I've tested negative x3 upon returning and followed all quarantine guidelines as to not put anyone at risk)\n\nGeneral Info:\nhttps://www.cdc.gov/coronavirus/2019-ncov/index.html\n\nHopkins COVID Tracker:\nhttps://coronavirus.jhu.edu/map.html\n\nWHO COVID\nhttps://www.who.int/emergencies/diseases/novel-coronavirus-2019",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/WAOkXN7aXxg/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/WAOkXN7aXxg/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/WAOkXN7aXxg/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/WAOkXN7aXxg/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/WAOkXN7aXxg/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Doctor Mike Clips",
+				"categoryId": "22",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "Admitting When I'm Wrong",
+					"description": "Point of Clarity: Guidelines state a maximum of 10 people or 50% capacity of the boat whichever is GREATER (The boat capacity was 90 people). Also, I did not see or treat patients until after following all guidelines for safe return. \n\nThank you for hearing me out. I made a mistake and I apologize. Do not let my lapse in judgment be used to hurt the science behind masks and the other COVID mitigation measures. Here are some links to accurate info from the CDC on the subject. (Update: I've tested negative x3 upon returning and followed all quarantine guidelines as to not put anyone at risk)\n\nGeneral Info:\nhttps://www.cdc.gov/coronavirus/2019-ncov/index.html\n\nHopkins COVID Tracker:\nhttps://coronavirus.jhu.edu/map.html\n\nWHO COVID\nhttps://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+				}
+			},
 			"statistics": {
-				"viewCount": "1682266",
+				"viewCount": "1697691",
 				"favoriteCount": "0",
-				"commentCount": "33543"
+				"commentCount": "33798"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "LKRmtYUTKztmhpnXUEnMJ8dI24o",
+			"etag": "DApNEpOANA2JEpTpyBejmTc1isg",
 			"id": "UWvlmU7iKnU",
+			"snippet": {
+				"publishedAt": "2016-07-17T03:26:29Z",
+				"channelId": "UCjgiq4SJ0kBPEoeVpMeQ6hg",
+				"title": "#ApologizeRiceGum I am sorry",
+				"description": "I am sorry. Hopefully you can forgive me",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/UWvlmU7iKnU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/UWvlmU7iKnU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/UWvlmU7iKnU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/UWvlmU7iKnU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/UWvlmU7iKnU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "RiceLive",
+				"tags": [
+					"ricegum rape",
+					"ricegum sorry",
+					"ricegum apology",
+					"ricegum onision",
+					"onision roast",
+					"ricegum apologize",
+					"ricegum apologoy",
+					"rice gum apology",
+					"rice gum sorry",
+					"ricegum rape story",
+					"ricegum apologizing",
+					"apologizericegum"
+				],
+				"categoryId": "22",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "#ApologizeRiceGum I am sorry",
+					"description": "I am sorry. Hopefully you can forgive me"
+				}
+			},
 			"statistics": {
-				"viewCount": "1587861",
-				"likeCount": "118429",
+				"viewCount": "1588146",
+				"likeCount": "118423",
 				"dislikeCount": "11687",
 				"favoriteCount": "0",
-				"commentCount": "37481"
+				"commentCount": "37471"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "qc5PcLJXnAXUtPkGLTAGlG9ezBY",
+			"etag": "yVrE9cu_ri3D65XkCx-O4cq3Nt8",
 			"id": "C45-1rf65PU",
+			"snippet": {
+				"publishedAt": "2017-06-03T16:45:14Z",
+				"channelId": "UCcgVECVN4OKV6DH1jLkqmcA",
+				"title": "Dear YouTube, I'm sorry....",
+				"description": "WATCH \"PARK SOUTH FREESTYLE\" MUSIC VIDEO 👉🏼 https://youtu.be/q_xNx_-nqio\n\nI have something to say...\n😃 SUBSCRIBE ► http://bit.ly/SUB2JAKEPAUL | ★ PREVIOUS VLOG ► https://www.youtube.com/watch?v=Y9mTt6YfDEg\n\nTURN ON MY POST NOTIFICATIONS FOR SHOUTOUTS IN MY VLOG\n\nGET OUR NEW MERCH HERE►\nhttps://fanjoy.co/collections/jake-paul\n\nExclusive vids on my Second YouTube channel► http://bit.ly/SUB2JAKE\n\n*FOLLOW ME ON SOCIAL MEDIA! *\nMY INSTAGRAM (@JakePaul) ► https://www.instagram.com/JakePaul \nMY TWITTER (@JakePaul) ► http://twitter.com/JakePaul \nMY FACEBOOK ► https://www.facebook.com/JakePaul \nMY SNAPCHAT ► JakePaul19 \nMY MUSICAL.LY ► @JakePaul\n\n*FOLLOW TEAM 10! *\nTwitter ➝ http://twitter.com/Team10official \nInstagram ➝ http://instagram.com/Team10official \nFacebook ➝ http://instagram.com/Team10official \nSnapchat ➝ Team10Snaps\nMusical.ly ➝ @Team10official\nWant to text us?  ➝ 1-323-909-4406\n\nWatch my Disney Show, Bizaardvark!\n➝ http://watchdisneychannel.go.com/bizaardvark\n\nI HAVE A BOOK!! “YOU GOTTA WANT IT\" ► http://amzn.to/2hY5Pyx\n\nfamily friendly pg clean\n\nCYA TOMORROW!!\n\nMUSIC USED►\n\nMusic provided by Frequency.\nTrack: Fluex - Wings To Fly\nLink: https://youtu.be/qKLRv7vL7Rk\n\n⚠ WARNING ⚠\nSome effects and visuals may not be suitable for those that suffer from epilepsy.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/C45-1rf65PU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/C45-1rf65PU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/C45-1rf65PU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/C45-1rf65PU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/C45-1rf65PU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Jake Paul",
+				"tags": [
+					"trending",
+					"Jake Paul - Every Day Bro",
+					"lucas and marcus",
+					"team 10",
+					"logan paul",
+					"family vloggers",
+					"jake paul song",
+					"trending tiktok songs",
+					"Logan Paul Vlogs",
+					"jake paul scary vids",
+					"mini jake paul",
+					"Jake Paul - DUMMY ft. TVGUCCI (Official Lyric Video)",
+					"boxing",
+					"tik tok video",
+					"Impaulsive Podcast",
+					"Jake Paul - Fresh Outta London (Official Music Video)",
+					"Jake Paul youtube",
+					"Jake Paul Vlogs",
+					"Tana",
+					"Jake Paul - 23 (Official Music Video) starring Logan Paul",
+					"merch",
+					"jake paul pranks",
+					"jake paul"
+				],
+				"categoryId": "22",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "Dear YouTube, I'm sorry....",
+					"description": "WATCH \"PARK SOUTH FREESTYLE\" MUSIC VIDEO 👉🏼 https://youtu.be/q_xNx_-nqio\n\nI have something to say...\n😃 SUBSCRIBE ► http://bit.ly/SUB2JAKEPAUL | ★ PREVIOUS VLOG ► https://www.youtube.com/watch?v=Y9mTt6YfDEg\n\nTURN ON MY POST NOTIFICATIONS FOR SHOUTOUTS IN MY VLOG\n\nGET OUR NEW MERCH HERE►\nhttps://fanjoy.co/collections/jake-paul\n\nExclusive vids on my Second YouTube channel► http://bit.ly/SUB2JAKE\n\n*FOLLOW ME ON SOCIAL MEDIA! *\nMY INSTAGRAM (@JakePaul) ► https://www.instagram.com/JakePaul \nMY TWITTER (@JakePaul) ► http://twitter.com/JakePaul \nMY FACEBOOK ► https://www.facebook.com/JakePaul \nMY SNAPCHAT ► JakePaul19 \nMY MUSICAL.LY ► @JakePaul\n\n*FOLLOW TEAM 10! *\nTwitter ➝ http://twitter.com/Team10official \nInstagram ➝ http://instagram.com/Team10official \nFacebook ➝ http://instagram.com/Team10official \nSnapchat ➝ Team10Snaps\nMusical.ly ➝ @Team10official\nWant to text us?  ➝ 1-323-909-4406\n\nWatch my Disney Show, Bizaardvark!\n➝ http://watchdisneychannel.go.com/bizaardvark\n\nI HAVE A BOOK!! “YOU GOTTA WANT IT\" ► http://amzn.to/2hY5Pyx\n\nfamily friendly pg clean\n\nCYA TOMORROW!!\n\nMUSIC USED►\n\nMusic provided by Frequency.\nTrack: Fluex - Wings To Fly\nLink: https://youtu.be/qKLRv7vL7Rk\n\n⚠ WARNING ⚠\nSome effects and visuals may not be suitable for those that suffer from epilepsy."
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "7017469",
-				"likeCount": "312010",
-				"dislikeCount": "136962",
+				"viewCount": "7018162",
+				"likeCount": "311991",
+				"dislikeCount": "136984",
 				"favoriteCount": "0",
-				"commentCount": "67448"
+				"commentCount": "67433"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "cX637DAo4RiI4IjpDk-dIJ1V9F4",
+			"etag": "nzcxeMH5joWn0leeKYTUejuwDEU",
 			"id": "QwZT7T-TXT0",
+			"snippet": {
+				"publishedAt": "2018-01-02T16:42:21Z",
+				"channelId": "UCG8rbF3g2AMX70yOd8vqIZg",
+				"title": "So Sorry.",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/QwZT7T-TXT0/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/QwZT7T-TXT0/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/QwZT7T-TXT0/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/QwZT7T-TXT0/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/QwZT7T-TXT0/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Logan Paul",
+				"tags": [
+					"logan paul vlog",
+					"logan paul",
+					"logan",
+					"paul",
+					"olympics",
+					"logan paul youtube",
+					"vlog",
+					"daily",
+					"comedy",
+					"hollywood",
+					"parrot",
+					"maverick",
+					"bird",
+					"maverick clothes",
+					"logan paul apology",
+					"suicide forest",
+					"japanese suicide forest",
+					"suicide",
+					"logan paul suicide",
+					"suicide apology"
+				],
+				"categoryId": "24",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "So Sorry.",
+					"description": ""
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "59511792",
-				"likeCount": "1753224",
-				"dislikeCount": "2517517",
+				"viewCount": "59553333",
+				"likeCount": "1753456",
+				"dislikeCount": "2519205",
 				"favoriteCount": "0",
-				"commentCount": "1338775"
+				"commentCount": "1337959"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "_2BT59DpApGY_AIEKi1kvRG8Yt4",
+			"etag": "-WA8Mjf-b5HlErMlMs8Gnh_-yIM",
 			"id": "2JMZWMJVNe8",
+			"snippet": {
+				"publishedAt": "2016-01-09T11:33:57Z",
+				"channelId": "UC11PvrGPzo6Y7Zc6-e9cAKg",
+				"title": "We got it wrong. - I'm sorry & will do better.",
+				"description": "Our Website - http://www.DramaAlert.com/\n\nFollow for News - https://www.twitter.com/KEEMSTAR\n\nFollow my Livestream - http://www.stream.me/keemstar\n\nOther Social Media:\nFacebook - https://www.facebook.com/DramaAlert\nInstagram - https://www.instagram.com/keem5tar/\nGoogle+ - https://plus.google.com/+DramaAlert\n\n\n\nProve you read the description by posting in the comments!\nLove you guys!\n\n►USE CODE (KEEM) - http://gfuel.com/pages/keem",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/2JMZWMJVNe8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/2JMZWMJVNe8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/2JMZWMJVNe8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/2JMZWMJVNe8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "DramaAlert",
+				"tags": [
+					"#DramaAlert",
+					"keemstar"
+				],
+				"categoryId": "25",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "We got it wrong. - I'm sorry & will do better.",
+					"description": "Our Website - http://www.DramaAlert.com/\n\nFollow for News - https://www.twitter.com/KEEMSTAR\n\nFollow my Livestream - http://www.stream.me/keemstar\n\nOther Social Media:\nFacebook - https://www.facebook.com/DramaAlert\nInstagram - https://www.instagram.com/keem5tar/\nGoogle+ - https://plus.google.com/+DramaAlert\n\n\n\nProve you read the description by posting in the comments!\nLove you guys!\n\n►USE CODE (KEEM) - http://gfuel.com/pages/keem"
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "1803393",
-				"likeCount": "51705",
-				"dislikeCount": "163296",
+				"viewCount": "1804842",
+				"likeCount": "51710",
+				"dislikeCount": "163386",
 				"favoriteCount": "0",
-				"commentCount": "41703"
+				"commentCount": "41690"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "wKnWZEoEZxQA-SQv6AsGMa-zpOc",
+			"etag": "yT2SJoLluPuGLTwM7XEj994Lpbc",
 			"id": "rSk87Rj1Q34",
+			"snippet": {
+				"publishedAt": "2016-07-07T16:59:42Z",
+				"channelId": "UCz3oEqDnugTABWXW3JAMWSA",
+				"title": "TmarTn Im Sorry [REUPLOAD] TmarTn & Syndicate CsGo Loto Scam | Apology video [DELETED VIDEO] !",
+				"description": "TmarTn Im Sorry [REUPLOAD] TmarTn & Syndicate CsGo Scam Loto | Apology video.\nThis video is  re-upload of TmarTns apology video, Talking about the CsGo Loto scam. The reason why I re-uploaded this is because I watch syndicate and TmarTn, and knew this would be useful to reupload for their fans. \n\n► SUBSCRIBE TODAY!\n• Youtube: http://bit.ly/2aUsklO\n• Youtube Gaming: http://bit.ly/2aZ7lPU\n\n► SPONSORSHIPS\n• No-Scope Gaming Glasses: http://bit.ly/2bqLaxj\n• G2A (Cheap Games): http://bit.ly/2bbS0t5\n\n► OUR CHANNELS\n• TECH CHANNEL: http://bit.ly/2aZ7GCe\n• ZAK'S CHANNEL: http://bit.ly/2bzR4jb\n• OTIS' CHANNEL: http://bit.ly/2aZ7GSG\n\n► OUR SOCIAL MEDIA\n• Zonix Twitter: http://bit.ly/2bzSSZu\n• Zonix Snapchat: http://bit.ly/2b0vUt9\n\n► OTHER SOCIAL MEDIA\n• Zak's Twitter: http://bit.ly/2bqVWUg\n• Otis' Twitter: http://bit.ly/2b3CYUD",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/rSk87Rj1Q34/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/rSk87Rj1Q34/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/rSk87Rj1Q34/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/rSk87Rj1Q34/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/rSk87Rj1Q34/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Zakar00z",
+				"tags": [
+					"Syndicate",
+					"TmarTn",
+					"CsGo",
+					"Counter Strike Go",
+					"Counter Strike",
+					"TmarTn Deleted Videos",
+					"Exposed",
+					"Apology Video",
+					"Dramaalert",
+					"Youtube Drama",
+					"TmarTn CsGo Scam",
+					"Deleted Off of Youtube",
+					"Syndicate CsGo Scam",
+					"ReUplaod",
+					"Deleted TmarTn Video",
+					"Zakar00z",
+					"CsGoWild",
+					"Betting Scam",
+					"Youtuber Scam",
+					"TmarTn and Syndicate exposed",
+					"CoD",
+					"Black Ops 3",
+					"Gta5",
+					"Behind The Scenes",
+					"ReUplaod TmarTn",
+					"CSGO SCAMS",
+					"Famous Youtubers Scams",
+					"News",
+					"Gaming Community",
+					"zakaroo999",
+					"TmarTn Im Sorry",
+					"TmarTn Im Sorry REUPLOAD"
+				],
+				"categoryId": "20",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "TmarTn Im Sorry [REUPLOAD] TmarTn & Syndicate CsGo Loto Scam | Apology video [DELETED VIDEO] !",
+					"description": "TmarTn Im Sorry [REUPLOAD] TmarTn & Syndicate CsGo Scam Loto | Apology video.\nThis video is  re-upload of TmarTns apology video, Talking about the CsGo Loto scam. The reason why I re-uploaded this is because I watch syndicate and TmarTn, and knew this would be useful to reupload for their fans. \n\n► SUBSCRIBE TODAY!\n• Youtube: http://bit.ly/2aUsklO\n• Youtube Gaming: http://bit.ly/2aZ7lPU\n\n► SPONSORSHIPS\n• No-Scope Gaming Glasses: http://bit.ly/2bqLaxj\n• G2A (Cheap Games): http://bit.ly/2bbS0t5\n\n► OUR CHANNELS\n• TECH CHANNEL: http://bit.ly/2aZ7GCe\n• ZAK'S CHANNEL: http://bit.ly/2bzR4jb\n• OTIS' CHANNEL: http://bit.ly/2aZ7GSG\n\n► OUR SOCIAL MEDIA\n• Zonix Twitter: http://bit.ly/2bzSSZu\n• Zonix Snapchat: http://bit.ly/2b0vUt9\n\n► OTHER SOCIAL MEDIA\n• Zak's Twitter: http://bit.ly/2bqVWUg\n• Otis' Twitter: http://bit.ly/2b3CYUD"
+				}
+			},
 			"statistics": {
-				"viewCount": "265102",
-				"likeCount": "2676",
-				"dislikeCount": "2450",
+				"viewCount": "267176",
+				"likeCount": "2700",
+				"dislikeCount": "2460",
 				"favoriteCount": "0",
-				"commentCount": "1409"
+				"commentCount": "1427"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "uH-sAgrI9uRLJD_noMCYoS-1cPg",
+			"etag": "taoDPZ1R4ToYvLLWtreUEi_9srY",
 			"id": "x8QeSZpr0bs",
+			"snippet": {
+				"publishedAt": "2019-06-13T01:34:00Z",
+				"channelId": "UC6jgzx2g3nlbaYkd8EMweKA",
+				"title": "My Lipsticks",
+				"description": "Thank you for your feedback & constructive criticism. \nIf any one of you are not satisfied with your purchase, please contact \nhelp@jaclyncosmetics.com\n\nThis video has been revised at the 2:41 mark in adherence with our partner’s confidentiality agreement. SGS does not permit the disclosure of documents with redactions",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/x8QeSZpr0bs/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/x8QeSZpr0bs/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/x8QeSZpr0bs/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/x8QeSZpr0bs/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/x8QeSZpr0bs/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Jaclyn Hill",
+				"tags": [
+					"jaclynhill1",
+					"jaclyn hill",
+					"makeup tutorial",
+					"smokey eye tutorial",
+					"contour face",
+					"morning routine",
+					"how-to",
+					"everyday makeup",
+					"cat eye makeup",
+					"cat makeup",
+					"drugstore makeup"
+				],
+				"categoryId": "26",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "My Lipsticks",
+					"description": "Thank you for your feedback & constructive criticism. \nIf any one of you are not satisfied with your purchase, please contact \nhelp@jaclyncosmetics.com\n\nThis video has been revised at the 2:41 mark in adherence with our partner’s confidentiality agreement. SGS does not permit the disclosure of documents with redactions"
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "7514707",
-				"likeCount": "150074",
-				"dislikeCount": "167372",
+				"viewCount": "7518648",
+				"likeCount": "150091",
+				"dislikeCount": "167487",
 				"favoriteCount": "0",
-				"commentCount": "78561"
+				"commentCount": "78520"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "08zLUkifTwbu8a7r_0maGBa2KlU",
+			"etag": "vwn6pyo9mAvQDqoofqTz7RhS6hQ",
 			"id": "SA3v350Mhn8",
+			"snippet": {
+				"publishedAt": "2018-09-25T19:02:37Z",
+				"channelId": "UCKMugoa0uHpjUuq14yOpagw",
+				"title": "Lets Chat:  9-25-18",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/SA3v350Mhn8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/SA3v350Mhn8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/SA3v350Mhn8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/SA3v350Mhn8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/SA3v350Mhn8/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Laura Lee",
+				"tags": [
+					"Laura88Lee"
+				],
+				"categoryId": "26",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "Lets Chat:  9-25-18",
+					"description": ""
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "2962035",
+				"viewCount": "2962737",
 				"favoriteCount": "0"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "VkW9rmAExi1bai_Uoc5ehq7UfDc",
+			"etag": "VKTVE5THJATaUCrdQ6HxmAXQwTw",
 			"id": "T9tzBo8L1F8",
+			"snippet": {
+				"publishedAt": "2019-10-08T16:14:23Z",
+				"channelId": "UCF2oW5-MO8dB6ul9WH9xi0A",
+				"title": "apology",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/T9tzBo8L1F8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/T9tzBo8L1F8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/T9tzBo8L1F8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/T9tzBo8L1F8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/T9tzBo8L1F8/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "blndsundoll4mj",
+				"categoryId": "22",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "apology",
+					"description": ""
+				}
+			},
 			"statistics": {
-				"viewCount": "2768266",
-				"likeCount": "27170",
-				"dislikeCount": "65321",
+				"viewCount": "2768814",
+				"likeCount": "27168",
+				"dislikeCount": "65327",
 				"favoriteCount": "0",
-				"commentCount": "33743"
+				"commentCount": "33727"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "8ZFEGfpYdPQmsGfXxY1C5NFT9Po",
+			"etag": "E1r2yj19J3bSeruZ2FKD-A3qnvo",
 			"id": "OGRdiHHNIY0",
+			"snippet": {
+				"publishedAt": "2020-12-03T20:02:24Z",
+				"channelId": "UCLGe0PxyRFWmXVGJKq_gGvw",
+				"title": "this needs to be addressed",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/OGRdiHHNIY0/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/OGRdiHHNIY0/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/OGRdiHHNIY0/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/OGRdiHHNIY0/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/OGRdiHHNIY0/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "fancy vlogs by gab",
+				"categoryId": "22",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "this needs to be addressed",
+					"description": ""
+				}
+			},
 			"statistics": {
-				"viewCount": "886535",
+				"viewCount": "888566",
 				"favoriteCount": "0"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "NvIgFPxGAe0gKn-qIM3qhq7_fS8",
+			"etag": "_G3IEGFiExUxy25y6078UQPVLEY",
 			"id": "GsjwRp8_lWA",
+			"snippet": {
+				"publishedAt": "2021-04-01T18:05:14Z",
+				"channelId": "UCucot-Zp428OwkyRm2I7v2Q",
+				"title": "holding myself accountable",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/GsjwRp8_lWA/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/GsjwRp8_lWA/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/GsjwRp8_lWA/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/GsjwRp8_lWA/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/GsjwRp8_lWA/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "James Charles",
+				"categoryId": "24",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "holding myself accountable",
+					"description": ""
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "6957578",
-				"likeCount": "261637",
-				"dislikeCount": "172914",
+				"viewCount": "8218025",
+				"likeCount": "274245",
+				"dislikeCount": "235730",
 				"favoriteCount": "0",
-				"commentCount": "89510"
+				"commentCount": "105566"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "I3KzykT3Kq0qptVOe23LMi5sw6Y",
+			"etag": "GqZh_ngZ8V2NspyTSY-Wn54vDLs",
 			"id": "1aIYkgTcHBw",
+			"snippet": {
+				"publishedAt": "2020-06-30T17:00:02Z",
+				"channelId": "UC4qk9TtGhBKCkoWz5qGJcGg",
+				"title": "BREAKING MY SILENCE ...",
+				"description": "All of the Adsense proceeds from this video were donated to:\nhttp://www.spiritawakening.org/",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/1aIYkgTcHBw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/1aIYkgTcHBw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/1aIYkgTcHBw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/1aIYkgTcHBw/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/1aIYkgTcHBw/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Tati",
+				"tags": [
+					"YouTube",
+					"GlamLifeGuru",
+					"Tati Westbrook",
+					"Shane Dawson",
+					"Jeffree Star",
+					"James Charles"
+				],
+				"categoryId": "26",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "BREAKING MY SILENCE ...",
+					"description": "All of the Adsense proceeds from this video were donated to:\nhttp://www.spiritawakening.org/"
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "13469104",
+				"viewCount": "13525075",
 				"favoriteCount": "0"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "_MddnxLY-C7AohW_RHfcTq9xjyA",
+			"etag": "e0TsvxhlmznQoOS0koWu9nelFFQ",
 			"id": "hOuwNiCa-zU",
+			"snippet": {
+				"publishedAt": "2020-07-18T23:05:17Z",
+				"channelId": "UCkvK_5omS-42Ovgah8KRKtg",
+				"title": "Doing What's Right",
+				"description": "Hey everyone... I've missed you all so much. Thank you for watching.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/hOuwNiCa-zU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/hOuwNiCa-zU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/hOuwNiCa-zU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/hOuwNiCa-zU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/hOuwNiCa-zU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "jeffreestar",
+				"tags": [
+					"jeffree star",
+					"jeffree star cosmetics",
+					"jeffree star approved",
+					"james charles",
+					"shane dawson"
+				],
+				"categoryId": "24",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "Doing What's Right",
+					"description": "Hey everyone... I've missed you all so much. Thank you for watching."
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "13379636",
+				"viewCount": "13386316",
 				"favoriteCount": "0"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "qCACAD9o88bOe5cUG3DmKPM5yQM",
+			"etag": "QPZAFmfouGmtPEjvtxAydsmIfw0",
 			"id": "3E8W1Uvfr70",
+			"snippet": {
+				"publishedAt": "2019-04-21T23:39:39Z",
+				"channelId": "UCgKWAnKNXpaIPGe30ntrOwg",
+				"title": "Re: My Apology.",
+				"description": "My Apology: https://www.youtube.com/watch?v=RLJ1VKJXOBk&t=4s",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/3E8W1Uvfr70/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/3E8W1Uvfr70/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/3E8W1Uvfr70/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/3E8W1Uvfr70/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/3E8W1Uvfr70/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "FILIP",
+				"tags": [
+					"Filip",
+					"Filip Miucin",
+					"Apology",
+					"Filip Miucin Apology",
+					"filip miucin plagiarism",
+					"plagiarism",
+					"IGN",
+					"Dead Cells",
+					"boomstick gaming",
+					"boomstick gaming ign",
+					"Filip Miucin IGN",
+					"ign plagiarism"
+				],
+				"categoryId": "20",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "Re: My Apology.",
+					"description": "My Apology: https://www.youtube.com/watch?v=RLJ1VKJXOBk&t=4s"
+				}
+			},
 			"statistics": {
-				"viewCount": "61875",
+				"viewCount": "61935",
 				"likeCount": "1458",
-				"dislikeCount": "2991",
+				"dislikeCount": "2994",
 				"favoriteCount": "0",
 				"commentCount": "752"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "gYW4z4QeYpak48hfGOEmhw7Dcf8",
+			"etag": "37TcBWLmecM82Lbwt2MeUH8T-GM",
 			"id": "AuT6WuCYttk",
+			"snippet": {
+				"publishedAt": "2018-06-27T21:58:51Z",
+				"channelId": "UCbO9bltbkYwa56nZFQx6XJg",
+				"title": "We NEED to talk... Im sorry",
+				"description": "Hey guys just waned to post this video cause it was time for me to open up as Manny not just Manny Mua, life is HARD and I want you guys to know that you are not alone. Depression and Anxiety are such REAL problems and those who suffer from them need to find outlets that will help them combat their own thoughts! \nI love you all so much and I hope this video about me opening up can help you in any way, even if its just to see that just because someone is successful and looks like they have everything they could ever want... doesnt mean theyre always happy! Its a constant battle every day, its hard... but we will get through it! I love you. \n\nI CREATED A BRAND! CHECK OUT LIFES A DRAG HERE - Lunarbeauty.com\n\nSNAPCHAT - Mannymua\nIf you wanna join the Mannyac family... Subscribe to my Channel here - http://goo.gl/fLSvRP \nFacebook - http://goo.gl/6hx6Pt\nInstagram - http://instagram.com/mannymua733\nTwitter - https://twitter.com/MannyMua733\n\nI love you guys.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/AuT6WuCYttk/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/AuT6WuCYttk/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/AuT6WuCYttk/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/AuT6WuCYttk/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/AuT6WuCYttk/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Manny Mua",
+				"tags": [
+					"we need to talk",
+					"lets talk",
+					"manny mua",
+					"it gets better",
+					"im sorry",
+					"weneedtotalk",
+					"i need to tell you something",
+					"life update",
+					"anxiety",
+					"lunar beauty",
+					"lifes a drag"
+				],
+				"categoryId": "26",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "We NEED to talk... Im sorry",
+					"description": "Hey guys just waned to post this video cause it was time for me to open up as Manny not just Manny Mua, life is HARD and I want you guys to know that you are not alone. Depression and Anxiety are such REAL problems and those who suffer from them need to find outlets that will help them combat their own thoughts! \nI love you all so much and I hope this video about me opening up can help you in any way, even if its just to see that just because someone is successful and looks like they have everything they could ever want... doesnt mean theyre always happy! Its a constant battle every day, its hard... but we will get through it! I love you. \n\nI CREATED A BRAND! CHECK OUT LIFES A DRAG HERE - Lunarbeauty.com\n\nSNAPCHAT - Mannymua\nIf you wanna join the Mannyac family... Subscribe to my Channel here - http://goo.gl/fLSvRP \nFacebook - http://goo.gl/6hx6Pt\nInstagram - http://instagram.com/mannymua733\nTwitter - https://twitter.com/MannyMua733\n\nI love you guys."
+				}
+			},
 			"statistics": {
-				"viewCount": "2827845",
-				"likeCount": "169713",
+				"viewCount": "2827997",
+				"likeCount": "169709",
 				"dislikeCount": "4670",
 				"favoriteCount": "0",
-				"commentCount": "39224"
+				"commentCount": "39220"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "pXtYc1gSJ4yzmUHsR-2FxCuM8Fk",
+			"etag": "2wSEfzVmTea7PclckecXDrW6TFE",
 			"id": "679d-SQfWLk",
+			"snippet": {
+				"publishedAt": "2020-07-02T21:15:27Z",
+				"channelId": "UC2bNYDgqJVPiYoAPCBarOmQ",
+				"title": "Jenna Marbles Apology",
+				"description": "full video",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/679d-SQfWLk/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/679d-SQfWLk/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/679d-SQfWLk/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/679d-SQfWLk/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "thisvideoisback",
+				"categoryId": "22",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "Jenna Marbles Apology",
+					"description": "full video"
+				}
+			},
 			"statistics": {
-				"viewCount": "235202",
-				"likeCount": "4041",
-				"dislikeCount": "192",
+				"viewCount": "239096",
+				"likeCount": "4096",
+				"dislikeCount": "194",
 				"favoriteCount": "0",
-				"commentCount": "1660"
+				"commentCount": "1680"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "9jr87cffM46w-bndBGYjIWu86Zg",
+			"etag": "nmLhGKV_CqUllbRzSTDoBtlq8PU",
 			"id": "NuExff4-ty4",
+			"snippet": {
+				"publishedAt": "2020-08-18T20:05:53Z",
+				"channelId": "UChXKjLEzAB1K7EZQey7Fm1Q",
+				"title": "my overdue apology.",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/NuExff4-ty4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/NuExff4-ty4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/NuExff4-ty4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/NuExff4-ty4/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/NuExff4-ty4/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Pokimane",
+				"tags": [
+					"Pokimane",
+					"drama",
+					"copyright",
+					"sponsors"
+				],
+				"categoryId": "22",
+				"liveBroadcastContent": "none",
+				"defaultLanguage": "en",
+				"localized": {
+					"title": "my overdue apology.",
+					"description": ""
+				},
+				"defaultAudioLanguage": "en"
+			},
 			"statistics": {
-				"viewCount": "6446818",
-				"likeCount": "230398",
-				"dislikeCount": "209366",
+				"viewCount": "6472113",
+				"likeCount": "230759",
+				"dislikeCount": "209827",
 				"favoriteCount": "0",
-				"commentCount": "111792"
+				"commentCount": "111704"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "wGfGML289gbFjvxSYw3CLQu6x48",
+			"etag": "uxnT6ecY3jvstetDnnAKudbuzv8",
 			"id": "260IAJdFvl0",
+			"snippet": {
+				"publishedAt": "2021-03-17T03:03:16Z",
+				"channelId": "UCJ94IBNmj9bBGHgqV1EXCBw",
+				"title": "Let's talk",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/260IAJdFvl0/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/260IAJdFvl0/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/260IAJdFvl0/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/260IAJdFvl0/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/260IAJdFvl0/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "VIEWS",
+				"categoryId": "24",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "Let's talk",
+					"description": ""
+				}
+			},
 			"statistics": {
-				"viewCount": "6681649",
+				"viewCount": "6731444",
 				"favoriteCount": "0"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "Xxk7WZ4-lIbfDD5XvmNWoJpjsJc",
+			"etag": "Kf-vcI4MFQqlNWMA3lgAoEqq8jA",
 			"id": "cLdxuaxaQwc",
+			"snippet": {
+				"publishedAt": "2017-09-12T13:15:46Z",
+				"channelId": "UC-lHJZR3Gqxm24_Vd_AJ5Yw",
+				"title": "My Response",
+				"description": "",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/cLdxuaxaQwc/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/cLdxuaxaQwc/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/cLdxuaxaQwc/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/cLdxuaxaQwc/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/cLdxuaxaQwc/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "PewDiePie",
+				"categoryId": "22",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "My Response",
+					"description": ""
+				},
+				"defaultAudioLanguage": "en-GB"
+			},
 			"statistics": {
-				"viewCount": "15770271",
-				"likeCount": "1038858",
-				"dislikeCount": "77547",
+				"viewCount": "15794861",
+				"likeCount": "1039976",
+				"dislikeCount": "77633",
 				"favoriteCount": "0",
-				"commentCount": "127810"
+				"commentCount": "127850"
 			}
 		},
 		{
 			"kind": "youtube#video",
-			"etag": "DkQao7JRzSXxflVB1tdNVGfe6Ek",
+			"etag": "T9b-cBet4KiE5Pm5WsjoRCyVcuY",
 			"id": "ardRp2x0D_E",
+			"snippet": {
+				"publishedAt": "2020-06-26T23:53:38Z",
+				"channelId": "UCV9_KinVpV-snHe3C3n1hvA",
+				"title": "Taking Accountability",
+				"description": ".",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/ardRp2x0D_E/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/ardRp2x0D_E/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/ardRp2x0D_E/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/ardRp2x0D_E/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/ardRp2x0D_E/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "shane",
+				"tags": [
+					"shane",
+					"dawson"
+				],
+				"categoryId": "22",
+				"liveBroadcastContent": "none",
+				"localized": {
+					"title": "Taking Accountability",
+					"description": "."
+				}
+			},
 			"statistics": {
-				"viewCount": "20077118",
+				"viewCount": "20157833",
 				"favoriteCount": "0"
 			}
 		}
